@@ -43,36 +43,37 @@ class MainFragment: BrowseSupportFragment() {
         ))
         val header2 = HeaderItem(2, title2)
         categories.add(ListRow(header2, videos2))
+
+                // Tercera Categoría
+        val title3  = "Música"
+        val videos3 = ArrayObjectAdapter(Card())
+        videos2.addAll(0, listOf(
+            /*Video("cancion", "documental", R.atardecer, "La vida en el hielo Antártico.", R.raw.mira),
+            Video("cancion", "documental", R.cuco, "La vida en el hielo Antártico.", R.raw.california),*/
+            Video("cancion", "yghy7", R.mipmap.mus, "Un día de pesca del Pinguino Emperador.", R.raw.mira),
+        ))
+        val header3 = HeaderItem(2, title3)
+        categories.add(ListRow(header3, videos3))
         /*
-                // --- 3. Tercera Categoría: Ballena ---
-                val title3 = "Peliculas"
-                val videos3 = ArrayObjectAdapter(Card()
-                videos3.addAll(0, listOf(
-                    Video("oceano", "marina", R.mipmap.imagen_c, "El canto de la Ballena Azul.", R.raw.video_c),
-                    Video("migracion", "viaje", R.mipmap.imagen_d, "La gran travesía anual.", R.raw.video_d)
-                ))
-                val header3 = HeaderItem(3, title3)
-                categories.add(ListRow(header3, videos3))
+                        // --- 4. Cuarta Categoría: Camaleón ---
+                        val title4 = "Camaleón"
+                        val videos4 = ArrayObjectAdapter(Card())
+                        videos4.addAll(0, listOf(
+                            Video("colores", "naturaleza", R.mipmap.imagen_e, "El arte del mimetismo.", R.raw.video_e),
+                            Video("selva", "bosque", R.mipmap.imagen_f, "Cazando bichos con la lengua.", R.raw.video_f)
+                        ))
+                        val header4 = HeaderItem(4, title4)
+                        categories.add(ListRow(header4, videos4))
 
-                // --- 4. Cuarta Categoría: Camaleón ---
-                val title4 = "Camaleón"
-                val videos4 = ArrayObjectAdapter(Card())
-                videos4.addAll(0, listOf(
-                    Video("colores", "naturaleza", R.mipmap.imagen_e, "El arte del mimetismo.", R.raw.video_e),
-                    Video("selva", "bosque", R.mipmap.imagen_f, "Cazando bichos con la lengua.", R.raw.video_f)
-                ))
-                val header4 = HeaderItem(4, title4)
-                categories.add(ListRow(header4, videos4))
-
-                // --- 5. Quinta Categoría: Delfín ---
-                val title5 = "Delfín"
-                val videos5 = ArrayObjectAdapter(Card())
-                videos5.addAll(0, listOf(
-                    Video("saltos", "acrobacia", R.mipmap.imagen_g, "Delfines jugando en la bahía.", R.raw.video_g),
-                    Video("inteligencia", "ciencia", R.mipmap.imagen_h, "Comunicación y sonar del Delfín.", R.raw.video_h)
-                ))
-                val header5 = HeaderItem(5, title5)
-                categories.add(ListRow(header5, videos5))*/
+                        // --- 5. Quinta Categoría: Delfín ---
+                        val title5 = "Delfín"
+                        val videos5 = ArrayObjectAdapter(Card())
+                        videos5.addAll(0, listOf(
+                            Video("saltos", "acrobacia", R.mipmap.imagen_g, "Delfines jugando en la bahía.", R.raw.video_g),
+                            Video("inteligencia", "ciencia", R.mipmap.imagen_h, "Comunicación y sonar del Delfín.", R.raw.video_h)
+                        ))
+                        val header5 = HeaderItem(5, title5)
+                        categories.add(ListRow(header5, videos5))*/
 
         // 2. Asignar el adaptador al fragmento
         adapter = categories
