@@ -41,7 +41,7 @@ class MainFragment: BrowseSupportFragment() {
             Video("caricaturas", "Chilly willy", R.mipmap.series, "serie de televisión animada, un pingüino caricaturesco que busca calor y comida, a menudo metiéndose en problemas con un perro llamado Smedley", R.raw.serie1),
             Video("caricaturas", "Los padrinos magicos", R.mipmap.series, "serie de televisión animada, Timmy Turner, un niño de 10 años a quien sus padres le dejan a cargo de la malvada niñera Vicky. Para ayudarlo, le asignan dos padrinos mágicos: Cosmo y Wanda, quienes le conceden deseos.", R.raw.serie2),
             Video("caricaturas", "El chavo del 8", R.mipmap.series, "serie de televisión animada, trata de un grupo de personajes que habitan una vecindad, con el protagonista, el Chavo, un niño huérfano que vive en un barril y se mete en líos con los demás por malentendidos o travesuras", R.raw.serie3),
-            Video("caricaturas", "El parajaro loco", R.mipmap.series, "serie de televisión animada, El Pájaro Loco trata principalmente de la película de 2017 donde un abogado, Lance Walters, planea construir una casa en el bosque y entra en conflicto con el Pájaro Loco, un pájaro carpintero que defiende su hogar.", R.raw.serie4),
+            Video("caricaturas", "El parajaro loco", R.mipmap.series, "serie de televisión animada, El Pájaro Loco trata principalmente de la película de 2017 donde un abogado, Lance Walters, planea construir una casa en el bosque y entra en conflicto con el Pájaro Loco, un pájaro carpintero que defiende su hogar.", R.raw.serie4)
 
 
 
@@ -58,7 +58,7 @@ class MainFragment: BrowseSupportFragment() {
             Video("Canción", "mis gustos", R.mipmap.musica,"Fragmento de cancion que me gusto por alguna razon",R.raw.musica2),
             Video("Canción", "mis gustos", R.mipmap.musica,"Fragmento de cancion que me gusto por alguna razon",R.raw.musica3),
             Video("Canción", "mis gustos", R.mipmap.musica,"Fragmento de cancion que me gusto por alguna razon",R.raw.musica4),
-            Video("Canción", "mis gustos", R.mipmap.musica,"Fragmento de cancion que me gusto por alguna razon",R.raw.musica5),
+            Video("Canción", "mis gustos", R.mipmap.musica,"Fragmento de cancion que me gusto por alguna razon",R.raw.musica5)
 
 
 
@@ -74,7 +74,7 @@ class MainFragment: BrowseSupportFragment() {
                             Video("Memes de instagram", "Memes", R.mipmap.meme,"Memes sobre la uni", R.raw.meme1),
                             Video("Memes de instagram", "Memes", R.mipmap.meme,"Memes sobre la uni", R.raw.meme2),
                             Video("Memes de instagram", "Memes", R.mipmap.meme,"Memes sobre la uni", R.raw.meme3),
-                            Video("Memes de instagram", "Memes", R.mipmap.meme,"Memes sobre la uni", R.raw.meme4),
+                            Video("Memes de instagram", "Memes", R.mipmap.meme,"Memes sobre la uni", R.raw.meme4)
 
 
                         ))
@@ -89,7 +89,7 @@ class MainFragment: BrowseSupportFragment() {
                                     Video("youtube", "viaje", R.mipmap.videos, "video de exploracion en alguna tierra de españa", R.raw.videos1),
                                     Video("youtube", "viaje", R.mipmap.videos, "24 horas en una casa del arbol", R.raw.videos2),
                                     Video("youtube", "chef", R.mipmap.videos, "siendo chef por 24hr.", R.raw.videos3),
-                                    Video("youtube", "raro", R.mipmap.videos, "100 españoles dijeron", R.raw.videos4),
+                                    Video("youtube", "raro", R.mipmap.videos, "100 españoles dijeron", R.raw.videos4)
 
                                    ))
                                 val header5 = HeaderItem(5, title5)
